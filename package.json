@@ -1,12 +1,15 @@
 {
-  "name": "lplist",
-  "version": "1.0.0",
-  "description": "Get the list of LPs",
-  "main": "index.js",
-  "scripts": {
-    "start": "XKEY=HarBkpetG8QbricmU3pjqZsc node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "lplist",
+    "version": "1.0.0",
+    "description": "Get the list of LPs",
+    "main": "index.js",
+    "scripts": {
+        "start": "XKEY=HarBkpetG8QbricmU3pjqZsc node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@openzeppelin/merkle-tree": "^1.0.6"
+    }
 }
